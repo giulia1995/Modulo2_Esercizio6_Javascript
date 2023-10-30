@@ -67,9 +67,7 @@ prova();
 const coloriRandom = function () {
   const prezzi = document.querySelectorAll("h5")
   for (let i = 0; i < prezzi.length; i++) {
-      prezzi[i].style = `background-color: rgb(
-      ${Math.round(Math.random() * 255)},
-      ${Math.round(Math.random() * 255)},
+      prezzi[i].style = `color: rgb(
       ${Math.round(Math.random() * 255)},
       ${Math.round(Math.random() * 255)},
       ${Math.round(Math.random() * 255)} )`
