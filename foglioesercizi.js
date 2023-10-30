@@ -48,7 +48,7 @@ const cambioH1 = function () {
 function cambiaLink (){
   const a=
   document.querySelectorAll("a");
-  for(i=0;i<=a.length;i++){
+  for(i=0;i<a.length;i++){
     a[i].classList.add("linkcolor");
   }
 }
@@ -57,7 +57,7 @@ cambiaLink()
 
 function prova() {
   const img = document.querySelectorAll("img");
-  for (i = 0; i <= img.length; i++) {
+  for (i = 0; i<img.length; i++) {
     img[i].classList.toggle("show");
   }
 }
